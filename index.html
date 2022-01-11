@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rebecca</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Mohave&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	
+    <div class="banner">
+        <div class="section">
+        		<div class="brand">
+          			<p> Netflix </p>
+          	    </div>
+          	    
+          	    <div class="title">          	       		
+	          		
+					<h1> Rebecca </h1>    		       	
+          			
+           		</div>
+          		
+          		<div class="cast">
+          			<p> The classic tale of romantic suspense </p>
+        		</div>
+        		
+        		<div class="date">
+        			<p> October 21 </p>
+        		</div>
+ 		</div>
+        
+        <div class="buttons">
+				<div class="google">
+					<img src="img/google.jpg" alt="">
+				</div>
+
+				<div class="itunes">
+					<img src="img/itunes.png" alt="">
+				</div> 
+				
+		</div>
+	</div>
+    
+					
+			
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js">
+	</script>
+	
+	<script>
+		  gsap.from(".google" , {
+		  y:80,
+		  opacity:0,
+		  duration:2
+		});
+		  gsap.from(".itunes" , {
+		  x:80,
+		  opacity:0,
+		  duration:1
+		});
+		  gsap.from('h1', {
+		  duration: 2,
+		  x: 200,
+		  scale: 1
+		});
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+	font-family: 'Antonio', 'Mohave', sans-serif;
+	padding: 0;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 18px;
+}
+
+h1, p {
+	padding-left:24px;
+	margin: 0;
+}
+
+.section {
+	float: left;
+}
+
+.banner {
+	width: 100%;
+	max-width: 1000px;
+	min-height: 250px;
+	background: url('../img/banner.png') no-repeat center top / cover;
+	margin: 0 auto;
+}
+
+.brand p{
+	text-transform: uppercase;
+	padding-top: 15px;
+ 	padding-bottom: 25px;
+}
+
+
+.title h1 {
+	text-transform: uppercase;
+	font-size: 54px;
+	color: #C50018;
+	line-height: 40%;
+}
+
+.cast p {
+	padding-left: 127px;
+	padding-top: 82px;
+	font-size: 16px;	
+}
+
+
+.buttons {
+	width: 300px;
+}
+
+.google {
+	padding-left: 810px;
+	padding-top: 45px;
+}
+
+.itunes {
+	padding-left: 810px;
+	padding-top: 30px;
+}
+
+
